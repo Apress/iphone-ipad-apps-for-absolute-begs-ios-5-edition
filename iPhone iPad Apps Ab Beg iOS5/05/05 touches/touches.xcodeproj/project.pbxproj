@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7CEF6CE13CE9ADE00B2DE56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CEF6CD13CE9ADE00B2DE56 /* UIKit.framework */; };
+		F7CEF6D013CE9ADE00B2DE56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CEF6CF13CE9ADE00B2DE56 /* Foundation.framework */; };
+		F7CEF6D213CE9ADE00B2DE56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7CEF6D113CE9ADE00B2DE56 /* CoreGraphics.framework */; };
+		F7CEF6D813CE9ADE00B2DE56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7CEF6D613CE9ADE00B2DE56 /* InfoPlist.strings */; };
+		F7CEF6DA13CE9ADE00B2DE56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CEF6D913CE9ADE00B2DE56 /* main.m */; };
+		F7CEF6DE13CE9ADE00B2DE56 /* touchesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CEF6DD13CE9ADE00B2DE56 /* touchesAppDelegate.m */; };
+		F7CEF6E013CE9ADE00B2DE56 /* touchesViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = F7CEF6DF13CE9ADE00B2DE56 /* touchesViewController.h */; };
+		F7CEF6E213CE9ADE00B2DE56 /* touchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CEF6E113CE9ADE00B2DE56 /* touchesViewController.m */; };
+		F7CEF6E513CE9ADE00B2DE56 /* touchesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CEF6E313CE9ADE00B2DE56 /* touchesViewController.xib */; };
+		F7CEF6F213CE9AEF00B2DE56 /* wallPaper_05.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CEF6EB13CE9AEF00B2DE56 /* wallPaper_05.png */; };
+		F7CEF6F313CE9AEF00B2DE56 /* wallPaper_03.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CEF6EC13CE9AEF00B2DE56 /* wallPaper_03.png */; };
+		F7CEF6F413CE9AEF00B2DE56 /* wallPaper_04.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CEF6ED13CE9AEF00B2DE56 /* wallPaper_04.png */; };
+		F7CEF6F513CE9AEF00B2DE56 /* wallPaper_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CEF6EE13CE9AEF00B2DE56 /* wallPaper_02.png */; };
+		F7CEF6F613CE9AEF00B2DE56 /* wallPaper_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CEF6EF13CE9AEF00B2DE56 /* wallPaper_01.png */; };
+		F7CEF6F713CE9AEF00B2DE56 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CEF6F013CE9AEF00B2DE56 /* icon.png */; };
+		F7CEF6F813CE9AEF00B2DE56 /* luluIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CEF6F113CE9AEF00B2DE56 /* luluIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7CEF6C913CE9ADD00B2DE56 /* touches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CEF6CD13CE9ADE00B2DE56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7CEF6CF13CE9ADE00B2DE56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7CEF6D113CE9ADE00B2DE56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7CEF6D513CE9ADE00B2DE56 /* touches-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "touches-Info.plist"; sourceTree = "<group>"; };
+		F7CEF6D713CE9ADE00B2DE56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7CEF6D913CE9ADE00B2DE56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7CEF6DB13CE9ADE00B2DE56 /* touches-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "touches-Prefix.pch"; sourceTree = "<group>"; };
+		F7CEF6DC13CE9ADE00B2DE56 /* touchesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = touchesAppDelegate.h; sourceTree = "<group>"; };
+		F7CEF6DD13CE9ADE00B2DE56 /* touchesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = touchesAppDelegate.m; sourceTree = "<group>"; };
+		F7CEF6DF13CE9ADE00B2DE56 /* touchesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = touchesViewController.h; sourceTree = "<group>"; };
+		F7CEF6E113CE9ADE00B2DE56 /* touchesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = touchesViewController.m; sourceTree = "<group>"; };
+		F7CEF6E413CE9ADE00B2DE56 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/touchesViewController.xib; sourceTree = "<group>"; };
+		F7CEF6EB13CE9AEF00B2DE56 /* wallPaper_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallPaper_05.png; sourceTree = "<group>"; };
+		F7CEF6EC13CE9AEF00B2DE56 /* wallPaper_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallPaper_03.png; sourceTree = "<group>"; };
+		F7CEF6ED13CE9AEF00B2DE56 /* wallPaper_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallPaper_04.png; sourceTree = "<group>"; };
+		F7CEF6EE13CE9AEF00B2DE56 /* wallPaper_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallPaper_02.png; sourceTree = "<group>"; };
+		F7CEF6EF13CE9AEF00B2DE56 /* wallPaper_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallPaper_01.png; sourceTree = "<group>"; };
+		F7CEF6F013CE9AEF00B2DE56 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F7CEF6F113CE9AEF00B2DE56 /* luluIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luluIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7CEF6C613CE9ADD00B2DE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CEF6CE13CE9ADE00B2DE56 /* UIKit.framework in Frameworks */,
+				F7CEF6D013CE9ADE00B2DE56 /* Foundation.framework in Frameworks */,
+				F7CEF6D213CE9ADE00B2DE56 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7CEF6BE13CE9ADD00B2DE56 = {
+			isa = PBXGroup;
+			children = (
+				F7CEF6D313CE9ADE00B2DE56 /* touches */,
+				F7CEF6CC13CE9ADD00B2DE56 /* Frameworks */,
+				F7CEF6CA13CE9ADD00B2DE56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7CEF6CA13CE9ADD00B2DE56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7CEF6C913CE9ADD00B2DE56 /* touches.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7CEF6CC13CE9ADD00B2DE56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7CEF6CD13CE9ADE00B2DE56 /* UIKit.framework */,
+				F7CEF6CF13CE9ADE00B2DE56 /* Foundation.framework */,
+				F7CEF6D113CE9ADE00B2DE56 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7CEF6D313CE9ADE00B2DE56 /* touches */ = {
+			isa = PBXGroup;
+			children = (
+				F7CEF6DC13CE9ADE00B2DE56 /* touchesAppDelegate.h */,
+				F7CEF6DD13CE9ADE00B2DE56 /* touchesAppDelegate.m */,
+				F7CEF6DF13CE9ADE00B2DE56 /* touchesViewController.h */,
+				F7CEF6E113CE9ADE00B2DE56 /* touchesViewController.m */,
+				F7CEF6E313CE9ADE00B2DE56 /* touchesViewController.xib */,
+				F7CEF6D413CE9ADE00B2DE56 /* Supporting Files */,
+			);
+			path = touches;
+			sourceTree = "<group>";
+		};
+		F7CEF6D413CE9ADE00B2DE56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7CEF6EB13CE9AEF00B2DE56 /* wallPaper_05.png */,
+				F7CEF6EC13CE9AEF00B2DE56 /* wallPaper_03.png */,
+				F7CEF6ED13CE9AEF00B2DE56 /* wallPaper_04.png */,
+				F7CEF6EE13CE9AEF00B2DE56 /* wallPaper_02.png */,
+				F7CEF6EF13CE9AEF00B2DE56 /* wallPaper_01.png */,
+				F7CEF6F013CE9AEF00B2DE56 /* icon.png */,
+				F7CEF6F113CE9AEF00B2DE56 /* luluIcon.png */,
+				F7CEF6D513CE9ADE00B2DE56 /* touches-Info.plist */,
+				F7CEF6D613CE9ADE00B2DE56 /* InfoPlist.strings */,
+				F7CEF6D913CE9ADE00B2DE56 /* main.m */,
+				F7CEF6DB13CE9ADE00B2DE56 /* touches-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7CEF6C813CE9ADD00B2DE56 /* touches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CEF6E813CE9ADE00B2DE56 /* Build configuration list for PBXNativeTarget "touches" */;
+			buildPhases = (
+				F7CEF6C513CE9ADD00B2DE56 /* Sources */,
+				F7CEF6C613CE9ADD00B2DE56 /* Frameworks */,
+				F7CEF6C713CE9ADD00B2DE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touches;
+			productName = touches;
+			productReference = F7CEF6C913CE9ADD00B2DE56 /* touches.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7CEF6C013CE9ADD00B2DE56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University of Colorado at Colorado Springs";
+			};
+			buildConfigurationList = F7CEF6C313CE9ADD00B2DE56 /* Build configuration list for PBXProject "touches" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7CEF6BE13CE9ADD00B2DE56;
+			productRefGroup = F7CEF6CA13CE9ADD00B2DE56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7CEF6C813CE9ADD00B2DE56 /* touches */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7CEF6C713CE9ADD00B2DE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CEF6D813CE9ADE00B2DE56 /* InfoPlist.strings in Resources */,
+				F7CEF6E013CE9ADE00B2DE56 /* touchesViewController.h in Resources */,
+				F7CEF6E513CE9ADE00B2DE56 /* touchesViewController.xib in Resources */,
+				F7CEF6F213CE9AEF00B2DE56 /* wallPaper_05.png in Resources */,
+				F7CEF6F313CE9AEF00B2DE56 /* wallPaper_03.png in Resources */,
+				F7CEF6F413CE9AEF00B2DE56 /* wallPaper_04.png in Resources */,
+				F7CEF6F513CE9AEF00B2DE56 /* wallPaper_02.png in Resources */,
+				F7CEF6F613CE9AEF00B2DE56 /* wallPaper_01.png in Resources */,
+				F7CEF6F713CE9AEF00B2DE56 /* icon.png in Resources */,
+				F7CEF6F813CE9AEF00B2DE56 /* luluIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7CEF6C513CE9ADD00B2DE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CEF6DA13CE9ADE00B2DE56 /* main.m in Sources */,
+				F7CEF6DE13CE9ADE00B2DE56 /* touchesAppDelegate.m in Sources */,
+				F7CEF6E213CE9ADE00B2DE56 /* touchesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7CEF6D613CE9ADE00B2DE56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CEF6D713CE9ADE00B2DE56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7CEF6E313CE9ADE00B2DE56 /* touchesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CEF6E413CE9ADE00B2DE56 /* en */,
+			);
+			name = touchesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7CEF6E613CE9ADE00B2DE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7CEF6E713CE9ADE00B2DE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7CEF6E913CE9ADE00B2DE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touches/touches-Prefix.pch";
+				INFOPLIST_FILE = "touches/touches-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7CEF6EA13CE9ADE00B2DE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touches/touches-Prefix.pch";
+				INFOPLIST_FILE = "touches/touches-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7CEF6C313CE9ADD00B2DE56 /* Build configuration list for PBXProject "touches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CEF6E613CE9ADE00B2DE56 /* Debug */,
+				F7CEF6E713CE9ADE00B2DE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CEF6E813CE9ADE00B2DE56 /* Build configuration list for PBXNativeTarget "touches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CEF6E913CE9ADE00B2DE56 /* Debug */,
+				F7CEF6EA13CE9ADE00B2DE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7CEF6C013CE9ADD00B2DE56 /* Project object */;
+}

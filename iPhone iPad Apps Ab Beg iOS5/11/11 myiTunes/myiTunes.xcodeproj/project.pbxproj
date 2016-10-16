@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F769FE561454C414006ED005 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F769FE551454C414006ED005 /* UIKit.framework */; };
+		F769FE581454C414006ED005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F769FE571454C414006ED005 /* Foundation.framework */; };
+		F769FE5A1454C414006ED005 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F769FE591454C414006ED005 /* CoreGraphics.framework */; };
+		F769FE601454C414006ED005 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F769FE5E1454C414006ED005 /* InfoPlist.strings */; };
+		F769FE621454C414006ED005 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F769FE611454C414006ED005 /* main.m */; };
+		F769FE661454C414006ED005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F769FE651454C414006ED005 /* AppDelegate.m */; };
+		F769FE691454C414006ED005 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F769FE671454C414006ED005 /* MainStoryboard.storyboard */; };
+		F769FE6C1454C414006ED005 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F769FE6B1454C414006ED005 /* MasterViewController.m */; };
+		F769FE6F1454C414006ED005 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F769FE6E1454C414006ED005 /* DetailViewController.m */; };
+		F769FE761454C41C006ED005 /* iPad 72.png in Resources */ = {isa = PBXBuildFile; fileRef = F769FE751454C41C006ED005 /* iPad 72.png */; };
+		F769FE781454C41F006ED005 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F769FE771454C41F006ED005 /* Default-Portrait~ipad.png */; };
+		F769FE7A1454C422006ED005 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F769FE791454C422006ED005 /* Default-Landscape~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F769FE511454C414006ED005 /* myiTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myiTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F769FE551454C414006ED005 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F769FE571454C414006ED005 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F769FE591454C414006ED005 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F769FE5D1454C414006ED005 /* myiTunes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myiTunes-Info.plist"; sourceTree = "<group>"; };
+		F769FE5F1454C414006ED005 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F769FE611454C414006ED005 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F769FE631454C414006ED005 /* myiTunes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myiTunes-Prefix.pch"; sourceTree = "<group>"; };
+		F769FE641454C414006ED005 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F769FE651454C414006ED005 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F769FE681454C414006ED005 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F769FE6A1454C414006ED005 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		F769FE6B1454C414006ED005 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F769FE6D1454C414006ED005 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F769FE6E1454C414006ED005 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F769FE751454C41C006ED005 /* iPad 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad 72.png"; path = "../iPad 72.png"; sourceTree = "<group>"; };
+		F769FE771454C41F006ED005 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		F769FE791454C422006ED005 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F769FE4E1454C414006ED005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F769FE561454C414006ED005 /* UIKit.framework in Frameworks */,
+				F769FE581454C414006ED005 /* Foundation.framework in Frameworks */,
+				F769FE5A1454C414006ED005 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F769FE461454C413006ED005 = {
+			isa = PBXGroup;
+			children = (
+				F769FE5B1454C414006ED005 /* myiTunes */,
+				F769FE541454C414006ED005 /* Frameworks */,
+				F769FE521454C414006ED005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F769FE521454C414006ED005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F769FE511454C414006ED005 /* myiTunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F769FE541454C414006ED005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F769FE551454C414006ED005 /* UIKit.framework */,
+				F769FE571454C414006ED005 /* Foundation.framework */,
+				F769FE591454C414006ED005 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F769FE5B1454C414006ED005 /* myiTunes */ = {
+			isa = PBXGroup;
+			children = (
+				F769FE641454C414006ED005 /* AppDelegate.h */,
+				F769FE651454C414006ED005 /* AppDelegate.m */,
+				F769FE671454C414006ED005 /* MainStoryboard.storyboard */,
+				F769FE6A1454C414006ED005 /* MasterViewController.h */,
+				F769FE6B1454C414006ED005 /* MasterViewController.m */,
+				F769FE6D1454C414006ED005 /* DetailViewController.h */,
+				F769FE6E1454C414006ED005 /* DetailViewController.m */,
+				F769FE5C1454C414006ED005 /* Supporting Files */,
+			);
+			path = myiTunes;
+			sourceTree = "<group>";
+		};
+		F769FE5C1454C414006ED005 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F769FE791454C422006ED005 /* Default-Landscape~ipad.png */,
+				F769FE771454C41F006ED005 /* Default-Portrait~ipad.png */,
+				F769FE751454C41C006ED005 /* iPad 72.png */,
+				F769FE5D1454C414006ED005 /* myiTunes-Info.plist */,
+				F769FE5E1454C414006ED005 /* InfoPlist.strings */,
+				F769FE611454C414006ED005 /* main.m */,
+				F769FE631454C414006ED005 /* myiTunes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F769FE501454C414006ED005 /* myiTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F769FE721454C414006ED005 /* Build configuration list for PBXNativeTarget "myiTunes" */;
+			buildPhases = (
+				F769FE4D1454C414006ED005 /* Sources */,
+				F769FE4E1454C414006ED005 /* Frameworks */,
+				F769FE4F1454C414006ED005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myiTunes;
+			productName = myiTunes;
+			productReference = F769FE511454C414006ED005 /* myiTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F769FE481454C413006ED005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Colorado at Colorado Springs";
+			};
+			buildConfigurationList = F769FE4B1454C413006ED005 /* Build configuration list for PBXProject "myiTunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F769FE461454C413006ED005;
+			productRefGroup = F769FE521454C414006ED005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F769FE501454C414006ED005 /* myiTunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F769FE4F1454C414006ED005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F769FE601454C414006ED005 /* InfoPlist.strings in Resources */,
+				F769FE691454C414006ED005 /* MainStoryboard.storyboard in Resources */,
+				F769FE761454C41C006ED005 /* iPad 72.png in Resources */,
+				F769FE781454C41F006ED005 /* Default-Portrait~ipad.png in Resources */,
+				F769FE7A1454C422006ED005 /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F769FE4D1454C414006ED005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F769FE621454C414006ED005 /* main.m in Sources */,
+				F769FE661454C414006ED005 /* AppDelegate.m in Sources */,
+				F769FE6C1454C414006ED005 /* MasterViewController.m in Sources */,
+				F769FE6F1454C414006ED005 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F769FE5E1454C414006ED005 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F769FE5F1454C414006ED005 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F769FE671454C414006ED005 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F769FE681454C414006ED005 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F769FE701454C414006ED005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F769FE711454C414006ED005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F769FE731454C414006ED005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myiTunes/myiTunes-Prefix.pch";
+				INFOPLIST_FILE = "myiTunes/myiTunes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F769FE741454C414006ED005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myiTunes/myiTunes-Prefix.pch";
+				INFOPLIST_FILE = "myiTunes/myiTunes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F769FE4B1454C413006ED005 /* Build configuration list for PBXProject "myiTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F769FE701454C414006ED005 /* Debug */,
+				F769FE711454C414006ED005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F769FE721454C414006ED005 /* Build configuration list for PBXNativeTarget "myiTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F769FE731454C414006ED005 /* Debug */,
+				F769FE741454C414006ED005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F769FE481454C413006ED005 /* Project object */;
+}
